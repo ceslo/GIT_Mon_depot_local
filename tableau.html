@@ -1,57 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tableau</title>
-</head>
-<body>
-    <table>
-        <caption>Ventes T1</caption>
-        <thead> 
-            <td colspan="4">Ventes du 1<sup>er</sup> trimestre</td>
-        <tr>
-            <th> - </th> 
-            <th>Janvier</th>
-            <th>Fevrier</th>
-            <th>Mars</th>
-        </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Pierre</td>
-                <td>65 800</td>
-                <td>53 200</td>
-                <td>46 400</td>
-            </tr>
-            <tr>
-                <td>Paul</td>
-                <td>88 000</td>
-                <td>51 500</td>
-                <td>62 300</td>
-            </tr>
-            <tr>
-                <td rowspan="2">Jacques</td> 
-                <td>74 400</td>
-                <td>64 200</td>
-                <td>78 900</td>
-            </tr>
-            <tr>   
-               <td>68 100</td>
-               <td>76 700</td>
-               <td>99 500</td>
-            </tr>  
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-              <td>Total</td>
-              <td>228 200</td>
-              <td>168 900</td>
-              <td>187 600</td>
-            </tr>
-         </tfoot>    
-         </table> 
-    </table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jarditou</title>
+  </head>
+  <body>
+    <header>
+      <img src=assets/img/jarditou_logo.jpg alt=logo_jarditout
+      title=logo_jarditout>
+    </header>
+    <p>La qualité depuis 70 ans</p>
+    <nav>
+      <ul type="disc">
+        <li><a href="index.html" title="accueil">Accueil</a></li>
+        <li><a href="tableau.html" title="tableau">Tableau</a></li>
+        <li><a href="contact.html" title="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <setion>
+        <img src=assets/img/promotion.jpg alt="promotion" title="promotion">
+    </setion>
+
+    <section>
+<h1>Tableau</h1>
+<hr>
+<table>
+<thead> 
+    <tr> 
+        <th><b>Photo</b></th>
+        <th><b>ID</b></th>
+        <th><b>Catégorie</b></th>
+        <th><b>Libellé</b></th>
+        <th><b>Prix</b></th>
+        <th><b>Couleur</b></th>
+    </tr>
+</thead>
+<tbody> 
+    <tr>
+        <td><img src="tableau_fichiers/jarditou_html_zip/jarditou_photos/7.jpg" ></td>
+        <td>7</td>
+        <td>Barbecues</td>
+        <td>Aramis</td>
+        <td>110.00€</td>
+        <td>Brun</td>
+    </tr>
+    <tr> 
+        <td><img src="tableau_fichiers/jarditou_html_zip/jarditou_photos/8.jpg"></td>
+        <td>8</td>
+        <td>Barbecues</td>
+        <td>Athos</td>
+        <td>249.99€</td>
+        <td>Noir</td>
+    </tr>
+    <tr><td><img src="tableau_fichiers/jarditou_html_zip/jarditou_photos/11.jpg"></td>
+        <td>11</td>
+        <td>Barbecues</td>
+        <td>Clatronic</td>
+        <td>135.90€</td>
+        <td>Chrome</td>
+    </tr>
+    <tr>
+        <td><img src="tableau_fichiers/jarditou_html_zip/jarditou_photos/12.jpg"></td>
+        <td>12</td>
+        <td>Barbecues</td>
+        <td>Camping</td>
+        <td>88.00€</td>
+        <td>Noir</td>
+    </tr>
+    <tr>
+        <td><img src="tableau_fichiers/jarditou_html_zip/jarditou_photos/13.jpg"></td>
+        <td>13</td>
+        <td>Brouette</td>
+        <td>Green</td>
+        <td>49.00€</td>
+        <td>Verte</td>
+    </tr>
+    </tbody>
+
+</table>
+    </section>
+    <hr>
+    <footer>
+    <ul type="disc">
+        <li><a href="#" title="mention légales">Mentions légales</a></li>
+        <li><a href="#" title="horaires">Horaires</a></li>
+        <li><a href="#" title="plan_du_site">Plan du site</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
