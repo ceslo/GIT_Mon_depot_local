@@ -1,0 +1,47 @@
+nav,
+footer {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  padding: 2%;
+  padding-left: 5%;
+  background-color: black;
+  text-align: left;
+  white-space: nowrap;
+}
+a {color:white}
+#logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 22%;
+  width: 22%;
+}
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30%;
+}
+#promo {
+  width: 100%;
+}
+aside {
+  display: flex;
+  justify-content: flex-start;
+  background-color:#cccccc;
+  width: 40%;
+}
+div {
+  display: flex;
+  align-items: column;
+
+}
+h1 {
+  font-size: larger;
+}
+h2 {
+  font-size: small;
+}
+article {
+  font-size: smaller;
+}
