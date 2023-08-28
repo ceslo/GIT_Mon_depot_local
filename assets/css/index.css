@@ -8,7 +8,10 @@ footer {
   text-align: left;
   white-space: nowrap;
 }
-a {color:white}
+a {
+  color: white;
+  font-size: smaller;
+}
 #logo {
   display: flex;
   justify-content: flex-start;
@@ -25,16 +28,16 @@ header {
 #promo {
   width: 100%;
 }
+#colonne_gauche {
+  width: 59%;
+}
 aside {
-  display: flex;
-  justify-content: flex-start;
-  background-color:#cccccc;
+  background-color: #cccccc;
   width: 40%;
 }
 div {
   display: flex;
-  align-items: column;
-
+  flex-direction: row;
 }
 h1 {
   font-size: larger;
@@ -44,4 +47,17 @@ h2 {
 }
 article {
   font-size: smaller;
+}
+#tableau{
+    width: 50%;
+    table-layout:fixed;
+    text-align: center;
+
+}
+#tableau img {
+    width: 100%
+
+}
+th{
+    width:20%
 }
