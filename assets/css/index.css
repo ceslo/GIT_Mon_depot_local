@@ -13,8 +13,6 @@ a {
   font-size: smaller;
 }
 #logo {
-  display: flex;
-  justify-content: flex-start;
   height: 22%;
   width: 22%;
 }
@@ -43,19 +41,37 @@ h1 {
   font-size: larger;
 }
 h2 {
-  font-size: small;
+  font-size: medium;
 }
-article {
+p {
   font-size: smaller;
 }
-#tableau{
-    width: 50%;
-    table-layout:auto;
-    text-align: center;
+#tableau {
+  width: 50%;
+  table-layout: auto;
+  text-align: center;
 }
 #tableau img {
-    width: 100%
+  max-width: 100%;
+  height: auto;
 }
-th{
-    width:20%
+th {
+  width: 20%;
+}
+@media screen and (max-width: 768px) {
+  aside {
+    visibility: hidden;
+  }
+  nav,
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  #colonne_gauche {
+    width: 99%;
+  }
 }
