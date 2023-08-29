@@ -27,24 +27,24 @@ header {
   width: 100%;
 }
 #colonne_gauche {
-  width: 59%;
+  width: 69%;
 }
 aside {
+  width: 31%;
   background-color: #cccccc;
-  width: 40%;
-}
+  }
 div {
   display: flex;
   flex-direction: row;
 }
 h1 {
-  font-size: larger;
+  font-size:200%;
 }
 h2 {
-  font-size: medium;
+  font-size: 150%;
 }
 p {
-  font-size: smaller;
+  font-size: 90%;
 }
 #tableau {
   width: 50%;
@@ -74,4 +74,11 @@ th {
   #colonne_gauche {
     width: 99%;
   }
+  h1{
+    font-size:175%
+  }
+  h2 {
+    font-size: 100%;
+  }
+  p {font-size: 75%}
 }
